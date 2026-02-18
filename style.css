@@ -20,8 +20,7 @@ body {
   backdrop-filter: blur(10px);
   width: 100%;
 }
-
 .h2 {
-  color: #1a73e8; /* azul Google */
-  font-weight: bold; /* opcional, deixa mais destacado */
+  color: #1a73e8;
+  font-weight: bold;
 }
