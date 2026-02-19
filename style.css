@@ -35,7 +35,7 @@ body {
   .posts ul {
     list-style: none; /* remove os pontos */
     padding: 0;       /* remove o recuo padrão da lista */
-    margin: 0;        /* opcional: remove margem */
+    margin: 20;        /* opcional: remove margem */
     }
 
   .post-date {
@@ -48,14 +48,17 @@ body {
 
     body {
       font-size: 14px;
+        margin: 40px auto;
     }
   
     h1 {
       font-size: 24px;
+        margin: 40px auto;
     }
   
     h2 {
       font-size: 18px;
+        margin: 40px auto;
     }
   
     .container {
