@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ffffff, #f0f0c0)
+    background: linear-gradient(to right, #f0f0c0, #f0f0c0)
     color: black;
     h1 {
       color: #1a73e8;
@@ -11,13 +11,8 @@ body {
         color: #1a73e8;
         font-weight: bold;
       }
-    p {
-        font-size: 18px;
-      }
-    li {
-        font-size: 18px;
-        line-height: 30px;
-      }
+    h3 {
+        color: #1a73e8;
   }
   
   .container {
@@ -25,17 +20,29 @@ body {
     width: 100%;
     margin: 0px auto;
     text-align: left;
-    padding: 0 20px;
+    padding: 20px;
   }
   
   .card {
     background: rgba(255,255,255,0.1);
-    padding: 0 20px;
-    margin: 20px auto;
+    padding: 0px;
+    margin: 0px auto;
     border-radius: 8px auto;
     backdrop-filter: blur(10px);
     max-width: 800px;
     width: 100%;
+
+  .posts ul {
+    list-style: none; /* remove os pontos */
+    padding: 0;       /* remove o recuo padrão da lista */
+    margin: 0;        /* opcional: remove margem */
+    }
+
+  .post-date {
+    color: #555;       /* cinza discreto */
+    font-size: 0.9rem; /* menor que o texto normal */
+    }
+  
   }
 @media (max-width: 600px) {
 
