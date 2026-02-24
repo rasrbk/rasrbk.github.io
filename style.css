@@ -1,8 +1,10 @@
 body {
     margin: 20 auto;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ffffff, #ffffff);
+    background: linear-gradient(to right, #ffffff, #f0f0c0);
     color: black;
+    background-image: url("assets/background.png");
+    background-size: cover; 
     h1 {
       color: #1a73e8;
       font-weight: bold;
@@ -20,7 +22,6 @@ body {
     width: 100%;
     margin: 20px auto;
     text-align: left;
-    background: linear-gradient(to right, #ffffff, #ffffff);
     padding: 30px auto;
     border-radius: 8px auto;
     backdrop-filter: blur(10px);
