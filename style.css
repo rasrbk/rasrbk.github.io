@@ -1,13 +1,13 @@
 body {
-    margin: 30px auto;
-    
+    max-width: 800px;  
+    margin: 40px auto;
+    border: 40px auto;
     font-family: Arial, sans-serif;
     color: black;
     background-image: url("/assets/background.png");
     background-size: cover; 
-    background-color: rgb(179, 235, 255);
-    background-position: center; /* Centraliza */
-    background-attachment: fixed; /* Fundo fixo ao rolar a página */
+    background-attachment: fixed;    
+   
     h1 {
       color: #1a73e8;
       font-weight: bold;
@@ -22,16 +22,15 @@ body {
   }
   
   .card {
+    background-color: white;
     max-width: 800px;
     width: 100%;
     margin: 40px auto;
     text-align: left;
     border: 40px auto;
-    padding: 40px auto;
     border-radius: 8px auto;
-    background-color: rgb(179, 235, 255);
     backdrop-filter: blur(20px);
-    line-height:25px;
+    line-height:40px auto ;
   }
 
   .posts ul {
@@ -49,10 +48,10 @@ body {
 
 @media (max-width: 600px) {
 
-    body {
+  .body {
       font-size: 14px;
       margin: 30px auto;
-
+      
     }
   
     h1 {
@@ -62,9 +61,11 @@ body {
     h2 {
       font-size: 18px;
     }
-    .card {
+    
+  .card {
       width: 100%;
-      margin: 30px auto;
+      margin: 40px auto;
+      line-height:40px auto;
 
     }
   
