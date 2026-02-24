@@ -33,7 +33,7 @@ body {
     border-radius: 8px auto;
     backdrop-filter: blur(20px);
     line-height:40px auto;
-    padding: 20px;
+    padding: 10px;
   }
 
   .post-date {
@@ -52,7 +52,8 @@ body {
 
   .idk {
       font-size: 14px;
-      margin: 30px auto;
+      margin: 10px auto;
+      padding: 0px;
 
     }
   
@@ -67,13 +68,13 @@ body {
     
   .card {
       width: 100%;
-      margin: 40px auto;
-      line-height:40px auto;
+      margin: 20px auto;
+      line-height:20px auto;
 
     }
 
   img {
-      max-width: 100%;
+      max-width: 50%;
       height: auto;
     }
   
