@@ -9,16 +9,48 @@
 <body>
  <div class="card">
   <header>
-    <h1>001: Foque - Roteiro de estudos</h1>
+    <h1>001: Foque - Sites estáticos</h1>
     <a href="../index.html">← Voltar para Home</a>
   </header>
 </div>
   <main>
    <div class="card">
 
-    <p>Meu nome é Rebeca mas também uso os codinomes RasRbk ou PatasCurtas.</p>
+    <p>Acho que pode ser interessente deixar ir registrando as etapas que eu segui para criar esse site. Isso me ajuda a sistematizar melhor o conhecimento que adquiri até o momento e também pode me ajudar no futuro, quando eu for tentar aprender coisas mais complexas. </p>
 
-    <p>Tenho um <a href="https://rasrbk.wordpress.com/"">blog</a> desde 2015, onde postava algumas tentativas de desenhos e escrita literária. Com o tempo, meus horizontes se expandiram e com isso surgiu a vontade de manter um blog mais simples, mas que refletisse meus novos aprendizados e interesse em aprender mais sobre computadores. Por isso comecei a criar esse espaço, onde pretendo compartilhar algns experimentos.</p>      
+    <p>Esse blog é um site estático. Isso significa que é composto por arquivos fixos (normalmente HTML, CSS e às vezes JavaScript) que são enviados para o navegador exatamente como estão armazenados no servidor. Tudo o que eu escrevi/escrevo nos arquivos HTML e CSS que compõem esse blog (não incluí JavaScript, ainda) é exatamente o que a pessoa que está acessando recebe.</p>
+    
+    <p>Primeiro eu criei os arquivos no meu computador, depois coloquei em uma pasta criada no meu perfil no GitHub. É muito simples fazer isso utilizando o recurso <a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/what-is-github-pages">GitHub Pages</a>, que hospeda o site gratuitamente com o um endereço do tipo usuario.github.io.</p>
+
+    <h3>Etapas de publicação</h3>
+
+    <h4>1. Desenvolvimento local</h4>
+
+    <p>Minha primeira ideia foi pegar uma referência de site que eu achava interessante e tentar reproduzir. Acabei me deparando com a possiblidade de utilizar a ferramenta Jekyll para facilitar a vida e deixar tudo mais bonito. Mas pensei que isso poderia acabar não sendo muito diferente de criar um blog no Wordpress, coisa que eu já  fiz antes. Então optei pelo caminho de abrir uma tela em branco e ir escrevendo cada linha.</p>
+
+    <p>Criei um arquivo html com o nome index.html. Ele funciona como a porta de entrada do site, a <i>home</i>, onde coloquei uma breve apresentação e os links de cada blogpost. Depois, criei o arquivo style.css, para que o site pudesse ficar mais estilizado. Foi quando surgiu a ideia de misturar a ideia de um blog pessoal de estudos com conhecimentos aleatórios sobre focas. </p>
+
+    <p>Resolvi criar uma página para cada blogpost. Aqui passei pela minha primeira dificuldade, pois não sabia como conectar a página principal com as páginas de dentro da pasta 'posts'. Localmente isso estava funcionando perfeitamente, mas quando fiz as modificações no meu repositório do GitHub, a página clicada não era encontrada. Acabei descobrindo que esse problema era parecido com esse <a href="https://github.com/orgs/community/discussions/23093">aqui</a>. Nessa brincadeira, acabei aprendendo um pouco mais sobre o erro 404, mas deixarei isso pra depois. </p>
+
+    <p>Quando o site estava publicado no github e eu já conseguia acessar usando qualquer dispositivo, descobri que para que ele ficasse responsivo, isso é, se adaptasse para telas menores como celular, eu precisaria fazer mais algumas modificações. Teria que utilizar unidades flexiveis no CSS, tornar os tamanhos de imagens flexíveis e implementar Media Queries, que faz com que sejam aplicados estilos diferentes dependendo da largura da tela do usuário.</p>
+
+    <p>Exemplo: </p>
+      
+    <p>body {
+      font-size: 16px;
+  }
+
+  @media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    nav {
+        display: none;}}
+    </p>
+
+  <p>Nesse caso, tudo que for incluído no 'body' depois de @media só será aplicado quando o tamanho da tela for menor que 768px.</p>
+
+  <h4>2. Publicação</h4>
 
   </div>
   </main>
