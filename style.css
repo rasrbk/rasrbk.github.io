@@ -55,6 +55,7 @@ body {
       margin: 10px auto;
       padding: 0px;
       background-color: white;
+      background-attachment: fixed;
 
 
     }
@@ -78,7 +79,7 @@ body {
     }
 
   img {
-      max-width: 50%;
+      max-width: 100%;
       height: auto;
     }
   
